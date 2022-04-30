@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Inventory from '@mui/icons-material/Inventory';
 
 
 export const HeaderContainer= styled.ul`
@@ -41,8 +40,3 @@ export const StyledA = styled.a`
     color: black;
     color:white;
 `;
-
-export const InventoryStyled = styled(Inventory)`
-width: 150px;
-height: 22px;
-`
