@@ -3,6 +3,7 @@ import ArrowDropDownOutlined from '@material-ui/icons/ArrowDropDownOutlined';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutlined';
 
+
 import logo from "../../assets/img/logo.svg"
 import 
 {
@@ -10,8 +11,7 @@ import
     HeaderContainer,
     StyledLi, 
     StyledA,
-    LogoContainer
-    
+    LogoContainer,
 } from "./styled"
 
 
@@ -21,6 +21,7 @@ const Header = () => {
 
     return (
         <HeaderContainer>
+
 
             <LogoContainer>
                 <img src={logo}/>
