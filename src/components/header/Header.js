@@ -1,5 +1,5 @@
 import React from "react"
-
+import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 
 import logo from "../../assets/img/logo.svg"
 import 
@@ -8,6 +8,7 @@ import
     HeaderContainer,
     StyledLi, 
     StyledA,
+    LogoContainer,
 
 } from "./styled"
 
@@ -18,9 +19,9 @@ const Header = () => {
 
     return (
         <HeaderContainer>
-            <div>
+            <LogoContainer>
                 <img src={logo}/>
-            </div>
+            </LogoContainer>
             <StyledUl>
                 <StyledLi> 
                     Categoria 
@@ -46,7 +47,7 @@ const Header = () => {
                 </StyledLi>
 
                 <StyledLi>
-                    {/* <ShoppingCartOutlinedIcon/> */}
+                    <ShoppingCartOutlinedIcon/>
                     <StyledA href="#">Carrinho</StyledA>
                 </StyledLi>
             </StyledUl>

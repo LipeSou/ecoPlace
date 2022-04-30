@@ -9,6 +9,10 @@ export const HeaderContainer= styled.ul`
     background-color: #0F2105;
 `
 
+export const LogoContainer = styled.div`
+    grid-column-start: 2;
+`
+
 export const StyledUl = styled.ul`
     display: flex;
     justify-content: space-around;
