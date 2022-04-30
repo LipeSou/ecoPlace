@@ -1,14 +1,11 @@
 import styled from "styled-components";
-import Inventory from '@mui/icons-material/Inventory';
-
 
 export const HeaderContainer= styled.ul`
-    display:flex;
+    display: grid;
+    grid-template-columns: 12.2% 20% 1fr 12.2%;
     align-items:center;
     justify-content:space-between;
-    padding: 0 100px;
     height: 80px;
-    width: 90.6vw;
     background-color: #0F2105;
 `
 
@@ -42,7 +39,7 @@ export const StyledA = styled.a`
     color:white;
 `;
 
-export const InventoryStyled = styled(Inventory)`
-width: 150px;
-height: 22px;
-`
+// export const InventoryStyled = styled(Inventory)`
+// width: 150px;
+// height: 22px;
+// `
