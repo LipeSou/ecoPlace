@@ -1,7 +1,6 @@
 import React from "react"
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+
+
 import logo from "../../assets/img/logo.svg"
 import 
 { 
@@ -9,7 +8,7 @@ import
     HeaderContainer,
     StyledLi, 
     StyledA,
-    InventoryStyled 
+
 } from "./styled"
 
 
@@ -25,7 +24,7 @@ const Header = () => {
             <StyledUl>
                 <StyledLi> 
                     Categoria 
-                    <ArrowDropDownIcon/>
+                    {/* <ArrowDropDownOutlinedIcon/> */}
                 </StyledLi>
                 
                 <StyledLi>
@@ -37,17 +36,17 @@ const Header = () => {
                 </StyledLi>
 
                 <StyledLi>
-                    <InventoryStyled/>
+                    {/* <InventoryStyled/> */}
                     <StyledA href="#">Meus pedidos</StyledA>
                 </StyledLi>
 
                 <StyledLi>
-                    <PersonOutlinedIcon/>
+                    {/* <PersonOutlineIcon/> */}
                     <StyledA href="#">Meu perfil</StyledA>
                 </StyledLi>
 
                 <StyledLi>
-                    <ShoppingCartOutlinedIcon/>
+                    {/* <ShoppingCartOutlinedIcon/> */}
                     <StyledA href="#">Carrinho</StyledA>
                 </StyledLi>
             </StyledUl>
