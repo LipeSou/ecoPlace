@@ -2,7 +2,7 @@ import React from "react"
 import { Search } from '@material-ui/icons'
 import { HeaderContainer, Input, SearchContainer } from "./styled"
 
-const InputSearch = () => {
+export const InputSearch = () => {
     
     return (
         <HeaderContainer>

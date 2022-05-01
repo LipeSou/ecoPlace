@@ -1,9 +1,9 @@
 import React from 'react'
+import { CategoriasDados } from '../../../data';
 import Card from '../Card/Card';
 import { CategoryContainer, CardsContainer } from './styled'
-import { CategoriasDados } from './data'
 
-const CategoryList = () => {
+export const CategoryList = () => {
     console.log('list', CategoriasDados)
     return (
         <CategoryContainer >
