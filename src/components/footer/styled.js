@@ -36,6 +36,9 @@ export const StyledIcons = styled.div`
     display: flex;
     justify-content: space-around;
     margin-right: 30%;
+    >img{
+        margin-left: 20px;
+    }
 `
     
 export const StyledText = styled.p`
