@@ -1,10 +1,15 @@
 import React from 'react'
+import Heart from '../../../assets/img/heart_24px.png'
 import { 
     Container, 
     ImgCard,
     DescCard,
     CartCard,
-    TitleDesc, 
+    DivSpacing,
+    ClickButton,
+    CartButton,
+    Input,
+    Imagem,
 } from './styled';
 
 
@@ -13,32 +18,42 @@ export const Top = ({product}) => {
     return (
         <Container>
             <ImgCard>
-                <img src={product.img} />
-                <h3>Ficha Técnica</h3>
-                <div>
-                    <TitleDesc>Comprimento:</TitleDesc> <span>45 cm de comprimento</span>
-                </div>
-                <div>
-                    <TitleDesc>Largura:</TitleDesc> <span>2,5 cm</span>
-                </div>
-                <div>
-                    <TitleDesc>Espessura:</TitleDesc> <span>2 cm</span>
-                </div>
-                <div>
-                    <TitleDesc>Quantidade:</TitleDesc> <span>50 unidades</span>
-                </div>
-                <div>
-                    <TitleDesc>Marca:</TitleDesc> <span>Aruna</span>
-                </div>
-                <div>
-                    <TitleDesc>Tipo de Material:</TitleDesc> <span>{product.typeMaterial}</span>
-                </div>
+                <Imagem src={product.img} />
             </ImgCard>
             <DescCard>
-                <p>{product.title}</p>
+                <p style={{fontSize: "20px"}}>{product.title}</p>
+                <p style={{fontSize: "12px", marginTop: '5px'}}>Código: {product.code}</p>
+                <br />
+                <h4>
+                  Descrição
+                </h4>
+                <p style={{fontSize: "14px", marginTop: '5px'}}>{product.desc}</p>
             </DescCard>
             <CartCard>
-                Card
+                <DivSpacing>
+                    
+                        <h1 style={{display: 'inline'}}>R$ {product.valor}0</h1>
+                        <img style={{padding: '0 0 15px 35px',}} src={Heart} />
+                </DivSpacing>
+                <DivSpacing>
+                    <p>Vendido por</p>
+                    <p style={{color: "#059CFA"}}>Madeireira Bosques</p>
+                </DivSpacing>
+                <DivSpacing>
+                <label>
+                    Calcule seu frete:
+                    <Input type="text" name="name" placeholder="Insira seu CPF"/>
+                </label>
+                </DivSpacing>
+                <DivSpacing>
+                    <p>Quantidade</p>
+                </DivSpacing>
+                <DivSpacing>
+                    <CartButton>Adicionar ao carrinho</CartButton>
+                </DivSpacing>
+                <DivSpacing>
+                    <ClickButton>Compra com um clique</ClickButton>
+                </DivSpacing>
             </CartCard>
         </Container>
     )
