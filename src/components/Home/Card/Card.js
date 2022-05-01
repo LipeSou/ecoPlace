@@ -1,10 +1,14 @@
 import React from 'react'
-import { CardContainer } from './styled';
+import { CardContainer, Title, Imagem } from './styled';
 
-export const Card = () => {
+export const Card = (props) => {
+    const {categoria}= props
+    console.log('categoria', categoria)
+
     return (
         <CardContainer>
-            <p>Areia e Pedra</p>
+            <Imagem src={categoria.img} />
+            <Title>{categoria.title}</Title>
         </CardContainer>
     )
 }

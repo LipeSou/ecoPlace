@@ -6,7 +6,6 @@ export const FooterContainer= styled.div`
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    width: 100vw;
     background-color: #0F2105;
     
 `
@@ -37,20 +36,18 @@ export const StyledIcons = styled.div`
     display: flex;
     justify-content: space-around;
     margin-right: 30%;
-    `
+`
     
 export const StyledText = styled.p`
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height:24px;
         font-weight: 400;
 
 `
 
-
 export const StyledP = styled.p`
-
-    font-size: 20px;
+    font-size: 16px;
     color:#2BDE73;
     margin:0 15px ;
 `

@@ -36,6 +36,7 @@ z-index: 2;
 
 export const ArrowImage = styled.img`
 height: 50%;
+transition: 0.6s;
 :hover{
     opacity: 85%;
 }

@@ -7,5 +7,9 @@ export const CategoryContainer = styled.div`
 
 export const CardsContainer = styled.div`
     grid-column-start: 2;
+    margin: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
 `
-
