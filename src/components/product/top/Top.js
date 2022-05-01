@@ -42,7 +42,7 @@ export const Top = ({product}) => {
                 <DivSpacing>
                 <label>
                     Calcule seu frete:
-                    <Input type="text" name="name" placeholder="Insira seu CPF"/>
+                    <Input type="text" name="name" placeholder="Insira seu CEP"/>
                 </label>
                 </DivSpacing>
                 <DivSpacing>
