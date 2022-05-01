@@ -1,8 +1,8 @@
 import React from "react"
 import instagram from "../../assets/img/instagram.png"
 import linkedin from "../../assets/img/linkedin.png"
-import instagram from "../../assets/img/instagram.png"
-import instagram from "../../assets/img/instagram.png"
+import facebook from "../../assets/img/facebook.png"
+import twitter from "../../assets/img/twitter.png"
 import {
     FooterContainer, 
     SocialMedias,
@@ -20,10 +20,10 @@ const Footer = () => {
                     <p>Siga nossas redes sociais:</p>
                 </div>
                 <StyledIcons>
-                    {/* <FacebookOutlinedIcon/>
-                    <InstagramIcon/>
-                    <LinkedInIcon/>
-                    <TwitterIcon/> */}
+                    <img src={facebook}/>
+                    <img src={instagram}/>
+                    <img src={linkedin}/>
+                    <img src={twitter}/>
                 </StyledIcons>
             </SocialMedias>
             <Atendimento>
