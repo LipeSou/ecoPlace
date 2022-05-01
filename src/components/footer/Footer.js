@@ -1,5 +1,8 @@
 import React from "react"
-
+import instagram from "../../assets/img/instagram.png"
+import linkedin from "../../assets/img/linkedin.png"
+import instagram from "../../assets/img/instagram.png"
+import instagram from "../../assets/img/instagram.png"
 import {
     FooterContainer, 
     SocialMedias,

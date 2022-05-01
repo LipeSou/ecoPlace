@@ -10,6 +10,9 @@ export const HeaderContainer= styled.ul`
     
 `
 export const LogoContainer = styled.div`
+    >img{
+    cursor:pointer
+}
     grid-column-start: 2;
 `
 
@@ -22,6 +25,7 @@ export const StyledUl = styled.ul`
 `;
 
 export const StyledLi = styled.li`
+    cursor:pointer;
     display:flex;
     align-items: center;
     float: left;
