@@ -1,18 +1,16 @@
 import React from "react"
-import { Search } from '@material-ui/icons'
-import { HeaderContainer, Input, SearchContainer } from "./styled"
+import InputSearch from "../components/InputSearch/InputSearch"
+import Slider from "../components/Home/Slider/Slider"
+import CategoryList from "../components/Home/CategoryList/CategoryList"
 
 const Home = () => {
     
-
-
     return (
-        <HeaderContainer>
-            <SearchContainer>
-                <Search style={{color:'#0F2105', fontSize:24, paddingLeft:5}} />
-                <Input placeholder='Pesquise por produtos'/>
-            </SearchContainer>
-        </HeaderContainer>
+        <>
+            <InputSearch />
+            <Slider />
+            <CategoryList />
+        </>
     )
 }
 
