@@ -43,7 +43,3 @@ export const StyledA = styled.a`
     color:white;
 `;
 
-// export const InventoryStyled = styled(Inventory)`
-// width: 150px;
-// height: 22px;
-// `
