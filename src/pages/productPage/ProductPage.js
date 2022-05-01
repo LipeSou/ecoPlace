@@ -1,6 +1,7 @@
 import React from "react"
-import { ProdutosDados } from "../../data"
 import styled from 'styled-components'
+import Top from "../../components/product/top/Top"
+import { ProdutosDados } from "../../data"
 
 const Container = styled.div`
     display: grid;
@@ -9,7 +10,7 @@ const Container = styled.div`
 `
 
 const CardProductContainer = styled.div`
-    border: 1px solid #0F2105;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.30);
     border-radius: 15px;;
     grid-column-start: 2;
     background-color: #ffffff;
@@ -17,16 +18,19 @@ const CardProductContainer = styled.div`
 `
 
 
-
 const productPage = () => {
+    const codeId = '1125486';
+
+    const product = ProdutosDados.find(p => p.code === codeId)
+
+    console.log('produto', product)
 
     return (
         <Container>
             <CardProductContainer>
-                {ProdutosDados.map(product => {
-                    return <p key={product.codigo}>{product.title}</p>
-                })}
-            </CardProductContainer>
+                <Top product={product} />
+
+            </CardProductContainer>           
         </Container>
        
     )

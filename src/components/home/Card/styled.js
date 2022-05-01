@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-    cursor: pointer;
     width: 20rem;
     height: 120px;
     background-color: #00A0FF;
     border-radius: 15px;
     transition: 0.6s;
+    cursor: pointer;
     :hover{
         background-color: #5BC2FF;
     }
