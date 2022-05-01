@@ -6,8 +6,10 @@ import {
     CartCard,
     TitleDesc, 
     SeloContainer,
+    Image,
 } from './styled';
 import LogoGbc from '../../../assets/img/gbc_logo-01 1.png'
+import Avaliacoes from '../../../assets/img/avaliações.png'
 
 
 export const Bottom = ({product}) => {
@@ -36,7 +38,7 @@ export const Bottom = ({product}) => {
                 </div>
             </Datasheet>
             <DescCard>
-                <h4>Avaliações</h4>
+                <Image src={Avaliacoes} />
             </DescCard>
             <CartCard>
                 <h4>Selos de certificação</h4>

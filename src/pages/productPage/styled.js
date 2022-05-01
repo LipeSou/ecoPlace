@@ -15,3 +15,17 @@ grid-column-start: 2;
 background-color: #ffffff;
 margin: 20px 0;
 `
+
+export const MoreProductsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 15vw;
+`
+
+export const DisplayProducts = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+`

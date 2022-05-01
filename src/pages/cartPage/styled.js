@@ -84,3 +84,10 @@ export const MoreProductsContainer = styled.div`
     align-items: center;
     margin-top: 30px;
 `
+
+export const DisplayProducts = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+`
