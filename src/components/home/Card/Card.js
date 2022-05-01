@@ -3,8 +3,7 @@ import { CardContainer, Title, Imagem } from './styled';
 
 export const Card = (props) => {
     const {categoria}= props
-    console.log('categoria', categoria)
-
+        
     return (
         <CardContainer>
             <Imagem src={categoria.img} />

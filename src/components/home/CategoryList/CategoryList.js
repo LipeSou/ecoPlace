@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 import { CategoryContainer, CardsContainer } from './styled'
 
 export const CategoryList = () => {
-    console.log('list', CategoriasDados)
+
     return (
         <CategoryContainer >
             <CardsContainer>

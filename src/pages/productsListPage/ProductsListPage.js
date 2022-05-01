@@ -14,7 +14,8 @@ import {
     SearchMainContainer,
     NotFound,
     StyledError,
-    NotFoundItem 
+    NotFoundItem, 
+    Products
 } from "./styled"
 
 const productListPage = () => {
@@ -51,12 +52,15 @@ const productListPage = () => {
                         </SelectContainer>
                     </FilterContainer>
 
+                    <Products>
+                        
+                    </Products>
 
-                        <NotFound>
+                    <NotFound>
                             <img src={sadface}/>
                             <StyledError>Desculpe mas nao encontramos nenhum resultado para</StyledError>
                             <NotFoundItem>termo pesquisado</NotFoundItem>
-                        </NotFound>
+                    </NotFound>
 
                 </SearchMainContainer>
             </div>
