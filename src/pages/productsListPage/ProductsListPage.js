@@ -1,6 +1,5 @@
 import React from "react"
 import rightarrow from "../../assets/img/right-arrow.png"
-import sadface from "../../assets/img/sadface.png"
 import ArrowDropDownOutlined from '@material-ui/icons/ArrowDropDownOutlined';
 import { 
     StyledText,
@@ -12,9 +11,6 @@ import {
     FilterContainer,
     SelectContainer,
     SearchMainContainer,
-    NotFound,
-    StyledError,
-    NotFoundItem, 
     Products
 } from "./styled"
 
@@ -24,7 +20,7 @@ const productListPage = () => {
             <div>
                 <StyledInput/>
                 <StyledPathInfo>
-                    <StyledText> home </StyledText> <img src={rightarrow}/> <StyledText> Busca por: testando alguma coisa </StyledText>
+                    <StyledText> home </StyledText> <img src={rightarrow}/> <StyledText> Busca por: Madeiramento </StyledText>
                 </StyledPathInfo>
                 <StyledsearchInfo> Você pesquisou por: testando </StyledsearchInfo>
                 <SearchMainContainer>
@@ -56,11 +52,6 @@ const productListPage = () => {
                         
                     </Products>
 
-                    <NotFound>
-                            <img src={sadface}/>
-                            <StyledError>Desculpe mas nao encontramos nenhum resultado para</StyledError>
-                            <NotFoundItem>termo pesquisado</NotFoundItem>
-                    </NotFound>
 
                 </SearchMainContainer>
             </div>
