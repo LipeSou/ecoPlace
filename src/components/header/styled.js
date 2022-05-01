@@ -2,18 +2,20 @@ import styled from "styled-components";
 
 
 export const HeaderContainer= styled.ul`
-    display:flex;
+    display:grid;
+    grid-template-columns: 12.2% 20% 1fr 12.2%;
     align-items:center;
     justify-content:space-between;
-    padding: 0 100px;
     height: 80px;
-    width: 90.6vw;
     background-color: #0F2105;
+`
+export const StyledLogo = styled.div`
+    grid-column-start: 2;
 `
 
 export const StyledUl = styled.ul`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;

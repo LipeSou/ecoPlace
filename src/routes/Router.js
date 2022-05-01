@@ -5,10 +5,12 @@ import CheckoutPage from "../pages/checkoutPage/CheckoutPage"
 import ProductPage from "../pages/productPage/ProductPage"
 import ProductsListPage from "../pages/productsListPage/ProductsListPage"
 import ErrorPage from "../pages/errorPage/ErrorPage"
+import Header from "../components/header/Header"
 
 const Router = () => {
     return (
         <BrowserRouter>
+            <Header />
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
                 <Route exact path="/checkout" element={<CheckoutPage />} />

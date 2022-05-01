@@ -1,9 +1,13 @@
 import React from "react"
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
-import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
+import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
+import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
+
+
 // import InventoryIcon from '@material-ui/icons/InventoryIcon';
-// import InventoryIcon from '@material-ui/icons/bo';
+// import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+
 import logo from "../../assets/img/logo.svg"
 import 
 { 
@@ -11,24 +15,23 @@ import
     HeaderContainer,
     StyledLi, 
     StyledA,
+    StyledLogo
+
 } from "./styled"
-
-
-
-
 
 
 const Header = () => {
 
     return (
         <HeaderContainer>
-            <div>
+            <StyledLogo>
                 <img src={logo}/>
-            </div>
+            </StyledLogo>
+
             <StyledUl>
                 <StyledLi> 
                     Categoria 
-                    <ArrowDropDownIcon/>
+                    <ArrowDropDownOutlinedIcon/>
                 </StyledLi>
                 
                 <StyledLi>
@@ -40,7 +43,7 @@ const Header = () => {
                 </StyledLi>
 
                 <StyledLi>
-                    {/* <InventoryIcon/> */}
+                    <Inventory2OutlinedIcon/>
                     <StyledA href="#">Meus pedidos</StyledA>
                 </StyledLi>
 
