@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
+    cursor: pointer;
     width: 20rem;
     height: 120px;
     background-color: #00A0FF;

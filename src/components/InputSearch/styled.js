@@ -1,8 +1,6 @@
 import styled from "styled-components"
 
 export const HeaderContainer= styled.ul`
-    display:grid;
-    grid-template-columns: 12.2% 1fr 12.2%;
     margin-top: 23px;
     color: #0F2105
 `
