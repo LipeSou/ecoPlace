@@ -18,6 +18,7 @@ const Router = () => {
                     <Route exact path="/product" element={<ProductPage />} />
                     <Route exact path='/list' element={<ProductsListPage/>}/>
                     <Route exact path='/cart' element={<CartPage/>}/>
+                    <Route exact path='/product/cart' element={<CartPage/>}/>
                     <Route path="*" element={<ErrorPage/>}/>
                 </Routes>
                 <Footer/>

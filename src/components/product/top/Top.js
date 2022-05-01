@@ -1,5 +1,7 @@
 import React from 'react'
 import Heart from '../../../assets/img/heart_24px.png'
+import { goToCartPage } from '../../../routes/cordinator';
+import { useNavigate } from "react-router-dom";
 import { 
     Container, 
     ImgCard,
@@ -14,6 +16,8 @@ import {
 
 
 export const Top = ({product}) => {
+    
+    const navigate = useNavigate()
 
     return (
         <Container>
@@ -52,7 +56,7 @@ export const Top = ({product}) => {
                     <CartButton>Adicionar ao carrinho</CartButton>
                 </DivSpacing>
                 <DivSpacing>
-                    <ClickButton>Compra com um clique</ClickButton>
+                    <ClickButton onClick={() => goToCartPage(navigate)}>Compra com um clique</ClickButton>
                 </DivSpacing>
             </CartCard>
         </Container>
