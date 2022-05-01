@@ -60,5 +60,18 @@ line-height: 16px;
 export const ProductImage = styled.img`
 width: 216;
 height: 218;
-
 ` 
+
+export const MoreProductsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+`
+
+export const DisplayProducts = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+`

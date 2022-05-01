@@ -9,11 +9,10 @@ import {
     StyledCode,
     Price,
     StyledTitle,
-    ProductImage
+    ProductImage,
  } from "./styled"
 
-export const ProductCard = (product) => {
-    
+export const ProductCard = ({product}) => {
     return (
         <MainContainer>
             <HeartContainer>
@@ -22,7 +21,6 @@ export const ProductCard = (product) => {
 
             <ProductImage src={product.img}/>
             <StyledTitle>{product.title}</StyledTitle>
-
             <Rating>
                 <img src={star}/>
                 <img src={star}/>
