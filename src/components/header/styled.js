@@ -7,6 +7,10 @@ export const HeaderContainer= styled.ul`
     justify-content:space-between;
     height: 80px;
     background-color: #0F2105;
+    
+`
+export const LogoContainer = styled.div`
+    grid-column-start: 2;
 `
 
 export const LogoContainer = styled.div`

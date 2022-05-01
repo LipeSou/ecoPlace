@@ -1,15 +1,17 @@
 import React from "react"
+import ArrowDropDownOutlined from '@material-ui/icons/ArrowDropDownOutlined';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
+import PersonOutlineIcon from '@material-ui/icons/PersonOutlined';
+
 
 import logo from "../../assets/img/logo.svg"
 import 
-{ 
+{
     StyledUl, 
     HeaderContainer,
     StyledLi, 
     StyledA,
     LogoContainer,
-
 } from "./styled"
 
 
@@ -19,13 +21,16 @@ const Header = () => {
 
     return (
         <HeaderContainer>
+
+
             <LogoContainer>
                 <img src={logo}/>
             </LogoContainer>
+
             <StyledUl>
                 <StyledLi> 
                     Categoria 
-                    {/* <ArrowDropDownOutlinedIcon/> */}
+                    <ArrowDropDownOutlined/>
                 </StyledLi>
                 
                 <StyledLi>
@@ -42,7 +47,7 @@ const Header = () => {
                 </StyledLi>
 
                 <StyledLi>
-                    {/* <PersonOutlineIcon/> */}
+                    <PersonOutlineIcon/>
                     <StyledA href="#">Meu perfil</StyledA>
                 </StyledLi>
 
