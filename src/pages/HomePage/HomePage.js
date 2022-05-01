@@ -1,7 +1,7 @@
 import React from "react"
-import CategoryList from "../../components/Home/CategoryList/CategoryList"
-import Slider from "../../components/Home/Slider/Slider"
-import InputSearch from "../../components/InputSearch/InputSearch"
+import CategoryList from "../../components/home/CategoryList/CategoryList"
+import Slider from "../../components/home/Slider/Slider"
+import InputSearch from "../../components/inputSearch/InputSearch"
 
 const HomePage = () => {
     

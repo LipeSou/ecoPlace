@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import InputSearch from "../../components/InputSearch/InputSearch"
+import InputSearch from "../../components/inputSearch/InputSearch"
 
 export const MainContainer= styled.div`
     height: 84vh;
