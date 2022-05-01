@@ -13,9 +13,6 @@ export const LogoContainer = styled.div`
     grid-column-start: 2;
 `
 
-export const LogoContainer = styled.div`
-    grid-column-start: 2;
-`
 
 export const StyledUl = styled.ul`
     display: flex;
@@ -47,7 +44,3 @@ export const StyledA = styled.a`
     color:white;
 `;
 
-// export const InventoryStyled = styled(Inventory)`
-// width: 150px;
-// height: 22px;
-// `
