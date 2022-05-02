@@ -32,7 +32,7 @@ Desenvolvido por:
       <br />
       </td>
    </tr>  
-</table><br/><br/>
+</table><br/>
 
  💬 Fomos selecionados para participar do evento <b>< Provi / Hack > Do Agora</b>,<br>
  e com a missão de conscientizar sobre a responsabilidade que temos sobre o cuidado com o clima e meio ambiente,<br>
