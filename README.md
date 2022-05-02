@@ -1,10 +1,12 @@
+
 <h2 align="center">Equipe 21 Provi Hack  / Do Agora </h2>
-clima
+
 
  💬 Fomos selecionados para participar do evento <b>< Provi / Hack > Do Agora</b>,<br>
- e com a missão de conscientizar sobre a responsabilidade que temos sobre o cuidado com o clima, e meio ambiente.<br> 
-  Formamos uma equipe de Desenvolvedores, Pessoas de produto, e Designers UX/UI
- , fomos desafiados a criar e desenvolver um produto do do zero.
+ e com a missão de conscientizar sobre a responsabilidade que temos sobre o cuidado com o clima e meio ambiente,<br>
+ fomos desafiados a criar e desenvolver um produto do do zero. 
+  Formamos uma equipe de Desenvolvedores, Pessoas de produto, <br>
+  e Designers UX/UI e desenvolvemos o <b>ECONEXO</b> <b>#Por que não existe um Planeta B.</b>
 
 ### Recursos de Comunicação/Organização
 
@@ -48,28 +50,19 @@ $ npm start
 
 <h2>🖼️ Imagens </h2>
 
-<h3>Tela de entrada</h3>
+<h3>Home</h3>
+![tela home](https://user-images.githubusercontent.com/89329137/166172706-f4c08c42-461c-40a7-8109-83e0b947128c.png)
+
+<h3>Tela de Produto</h3>
+![descrição produto](https://user-images.githubusercontent.com/89329137/166172992-37575d6d-acdd-4285-b8a9-71382c32bb17.png)
 
 
-<h3>Tela de login</h3>
+<h3>Tela de Filtro e Pesquisa</h3>
+![tela pesquisa](https://user-images.githubusercontent.com/89329137/166173017-64e61615-8fd9-4f9d-8315-231fe964106b.png)
 
 
-<h3>Tela de login</h3>
-
-
-<h3>Tela de cadastro</h3>
-
-
-<h3 id="cadastroend">Tela de cadastro de endereço</h3>
-
-
-<h3>Tela de restaurantes</h3>
-
-<h3>Tela do carrinho sem pedido</h3>
-
-
-<h3>Tela de editar endereço</h3>
-
+<h3>Venda Realizada</h3>
+![tela carrinho](https://user-images.githubusercontent.com/89329137/166173043-942aca55-7aaa-4c7b-a2fe-f5b4d44d061f.png)
 
 <h2 align="center">
 🤓📚
