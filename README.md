@@ -65,7 +65,7 @@ $ npm start
 ![tela carrinho](https://user-images.githubusercontent.com/89329137/166173043-942aca55-7aaa-4c7b-a2fe-f5b4d44d061f.png)
 
 <h2 align="center">
-🤓📚
+
 Desenvolvido por: 
 </h2>
 <table align="center">
