@@ -37,7 +37,7 @@ export const StyledIcons = styled.div`
     justify-content: space-around;
     margin-right: 30%;
     >img{
-        margin-left: 20px;
+        margin-left: 10px;
     }
 `
     

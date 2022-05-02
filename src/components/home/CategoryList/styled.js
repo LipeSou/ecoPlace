@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const CategoryContainer = styled.div`
     display: grid;
     grid-template-columns: 12.2% 1fr 12.2%;
+    background-color: #f6fafb;
 `
 
 export const CardsContainer = styled.div`

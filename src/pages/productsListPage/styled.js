@@ -2,9 +2,8 @@ import styled from "styled-components"
 import InputSearch from "../../components/inputSearch/InputSearch"
 
 export const MainContainer= styled.div`
-    height: 84vh;
     display: grid;
-    grid-template-columns: 12.2%  1fr 12.2%;
+    grid-template-columns: 12.2%  75% 12.2%;
     justify-content: space-between;
     > div {
         grid-column-start: 2;
@@ -86,7 +85,8 @@ height: 391px;
 border: 2px solid #059CFA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
-
+padding: 10px;
+margin-right: 30px;
 `
 
 export const FilterTitle = styled.span`
@@ -101,6 +101,9 @@ background-color:#059CFA;
 border-radius: 5px;
 `
 
+export const ContainerMain = styled.div`
+`
+
 export const SearchMainContainer = styled.div`
 display:flex;
 justify-content: space-between;
@@ -110,6 +113,7 @@ align-items: center;
 export const Products = styled.div`
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+margin: 30px 0;
 `
 
 export const NotFound = styled.div`

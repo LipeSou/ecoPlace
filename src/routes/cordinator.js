@@ -15,8 +15,11 @@ export const goToProductPage = (navigate) => {
 }
 
 export const goToProductListPage = (navigate) => {
-    console.log("este")
     navigate("./list")
+}
+
+export const goToProductListProductPage = (navigate) => {
+    navigate("./product")
 }
 
 export const goToErrorPage = (navigate) => {

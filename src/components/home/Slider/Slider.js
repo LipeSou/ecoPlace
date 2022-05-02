@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ImagemPrimeiroSlide from '../../../assets/img/imgPrimeiroSlide.png'
+import ImagemSegundoSlide from '../../../assets/img/imgSegundoSlide.png'
 import HouseIcon from '../../../assets/img/houseIcon.png'
 import ButtonLeftNormal from '../../../assets/img/buttonLeftNormal.png'
 import ButtonRightNormal from '../../../assets/img/buttonRightNormal.png'
@@ -40,7 +41,7 @@ export const Slider = () => {
     },
     {
       id: 2,
-      img: ImagemPrimeiroSlide,
+      img: ImagemSegundoSlide,
       title: "Construa, não destrua!",
       desc: "Os melhores materiais certificados com selo de sustentabilidade, para o seu projeto decolar com qualidade e responsabilidade ambiental.",
       bg: "0F2105",

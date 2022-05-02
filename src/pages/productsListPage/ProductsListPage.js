@@ -6,54 +6,66 @@ import {
     StyledInput, 
     StyledPathInfo, 
     MainContainer,
-    StyledsearchInfo,
     FilterTitle,
     FilterContainer,
     SelectContainer,
     SearchMainContainer,
-    Products
+    Products,
+    ContainerMain
 } from "./styled"
+import { ProdutosDados } from "../../data";
+import ProductCard from "../../components/productCard/ProductCard";
 
 const productListPage = () => {
+
+
     return (
         <MainContainer>
             <div>
                 <StyledInput/>
                 <StyledPathInfo>
-                    <StyledText> home </StyledText> <img src={rightarrow}/> <StyledText> Busca por: Madeiramento </StyledText>
+                    <StyledText> home </StyledText> <img src={rightarrow}/> <StyledText>  categoria </StyledText> <img src={rightarrow}/> <StyledText>  madeiramento </StyledText>
                 </StyledPathInfo>
-                <StyledsearchInfo> Você pesquisou por: testando </StyledsearchInfo>
-                <SearchMainContainer>
-                    <FilterContainer>
-                        <FilterTitle>Filtros</FilterTitle>
-                        <SelectContainer>
-                            <p>Ordenar por</p>
-                            <ArrowDropDownOutlined style={{color:'white'}}/>
-                        </SelectContainer>
-                        <SelectContainer>
-                            <p>Ofertas</p>
-                            <ArrowDropDownOutlined style={{color:'white'}}/>
-                        </SelectContainer>
-                        <SelectContainer>
-                            <p>Fretes Gratis</p>
-                            <ArrowDropDownOutlined style={{color:'white'}}/>
-                        </SelectContainer>
-                        <SelectContainer>
-                            <p>Avaliações</p>
-                            <ArrowDropDownOutlined style={{color:'white'}}/>
-                        </SelectContainer>
-                        <SelectContainer>
-                            <p>Selos</p>
-                            <ArrowDropDownOutlined style={{color:'white'}}/>
-                        </SelectContainer>
-                    </FilterContainer>
+                <ContainerMain>
+                    <SearchMainContainer>
+                        <FilterContainer>
+                            <FilterTitle>Filtros</FilterTitle>
+                            <SelectContainer>
+                                <p>Ordenar por</p>
+                                <ArrowDropDownOutlined style={{color:'white'}}/>
+                            </SelectContainer>
+                            <SelectContainer>
+                                <p>Ofertas</p>
+                                <ArrowDropDownOutlined style={{color:'white'}}/>
+                            </SelectContainer>
+                            <SelectContainer>
+                                <p>Fretes Gratis</p>
+                                <ArrowDropDownOutlined style={{color:'white'}}/>
+                            </SelectContainer>
+                            <SelectContainer>
+                                <p>Avaliações</p>
+                                <ArrowDropDownOutlined style={{color:'white'}}/>
+                            </SelectContainer>
+                            <SelectContainer>
+                                <p>Selos</p>
+                                <ArrowDropDownOutlined style={{color:'white'}}/>
+                            </SelectContainer>
+                        </FilterContainer>
 
-                    <Products>
-                        
-                    </Products>
-
-
-                </SearchMainContainer>
+                        <Products>
+                            {
+                                ProdutosDados.map(product => {
+                                    console.log(product)
+                                    return (
+                                        <div key={product.code}>
+                                            <ProductCard  product={product} listPage={true}/>
+                                        </ div>
+                                    )
+                                })
+                            }
+                        </Products>
+                    </SearchMainContainer>
+                </ContainerMain>
             </div>
         </MainContainer>
     )

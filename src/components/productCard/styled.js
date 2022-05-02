@@ -6,10 +6,11 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 width: 254px;
-height:500px;
+height:520px;
 background: #FFFFFF;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
 border-radius: 15px;
+cursor: pointer;
 >img{
     margin: 20px
 }
