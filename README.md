@@ -1,6 +1,38 @@
 
 <h2 align="center">Equipe 21 Provi Hack  / Do Agora </h2>
 
+<h3 align="center">
+
+Desenvolvido por: 
+</h2>
+<table align="center">
+  <tr>
+      <td align="center"><a href="https://github.com/JunioBatista">
+        <img src="https://avatars.githubusercontent.com/u/89329137?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Junio Batista"/>
+      <br />
+        <sub><b>Junio Batista Silva</b></sub>
+      <br />
+      </td>
+      <td align="center"><a href="https://github.com/LipeSou">
+        <img src="https://avatars.githubusercontent.com/u/68256101?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Felipe Souto" />
+      <br />
+        <sub><b>Felipe Souto</b></sub>
+      <br />
+      </td>  
+      <td align="center"><a href="https://github.com/WandersonCSDev">
+        <img src="https://avatars.githubusercontent.com/u/17837812?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil Wanderson"/>
+      <br />
+        <sub><b>Wanderson</b></sub>
+      <br />
+      </td>
+      <td align="center"><a href="https://github.com/AdelinoJonas">
+        <img src="https://avatars.githubusercontent.com/u/84252481?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Ricardo Ribeiro"/>
+      <br />
+        <sub><b>AdelinoJonas</b></sub>
+      <br />
+      </td>
+   </tr>  
+</table><br/><br/>
 
  💬 Fomos selecionados para participar do evento <b>< Provi / Hack > Do Agora</b>,<br>
  e com a missão de conscientizar sobre a responsabilidade que temos sobre o cuidado com o clima e meio ambiente,<br>
@@ -64,35 +96,4 @@ $ npm start
 <h3>Venda Realizada</h3>
 ![tela carrinho](https://user-images.githubusercontent.com/89329137/166173043-942aca55-7aaa-4c7b-a2fe-f5b4d44d061f.png)
 
-<h2 align="center">
 
-Desenvolvido por: 
-</h2>
-<table align="center">
-  <tr>
-      <td align="center"><a href="https://github.com/JunioBatista">
-        <img src="https://avatars.githubusercontent.com/u/89329137?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Junio Batista"/>
-      <br />
-        <sub><b>Junio Batista Silva</b></sub>
-      <br />
-      </td>
-      <td align="center"><a href="https://github.com/LipeSou">
-        <img src="https://avatars.githubusercontent.com/u/68256101?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Felipe Souto" />
-      <br />
-        <sub><b>Felipe Souto</b></sub>
-      <br />
-      </td>  
-      <td align="center"><a href="https://github.com/WandersonCSDev">
-        <img src="https://avatars.githubusercontent.com/u/17837812?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil Wanderson"/>
-      <br />
-        <sub><b>Wanderson</b></sub>
-      <br />
-      </td>
-      <td align="center"><a href="https://github.com/AdelinoJonas">
-        <img src="https://avatars.githubusercontent.com/u/84252481?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Ricardo Ribeiro"/>
-      <br />
-        <sub><b>AdelinoJonas</b></sub>
-      <br />
-      </td>
-   </tr>  
-</table>
